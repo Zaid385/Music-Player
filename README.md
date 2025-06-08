@@ -24,3 +24,18 @@ A sleek, functional, and modern Music Player built using JavaFX. This desktop ap
 - **JavaFX MediaPlayer**
 
 ---
+
+## Quick note
+
+If the program doesn't work on Windows, try this:
+
+Change line 11 in the PlaylistManager class.
+Copy the Absolute path of the "Playlists" folder and paste it inside:
+
+**public static final File PLAYLISTS_ROOT_DIR = new File("Paste/the/Absolute/path/here");**
+
+There are several bugs here and there. If you encounter one, simply restart the program (usually when registering or logging in for the first time).
+
+---
+
+This was a semester project for my OOP class
